@@ -42,12 +42,6 @@ body, html {
     height: 100%;
     background: linear-gradient(90deg,rgb(20, 120, 210),rgba(0, 0, 255, 0));
 }
-.titulo{
-    position: fixed;
-    top:10px;
-    left:580px;
-    color: yellow
-}
 .button_R{
     position: fixed;
     top:20px;
@@ -101,46 +95,75 @@ body, html {
     left:310px;
 }
 .datos_de_liu_kang{
-    position: static;
+    position: absolute;
     top: 0px;
-    left: 700px;
+    left: 720px;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 255, 255, 0.339);
-    width: 800px;
+    width: 650px;
+}
+.info_p h3{
+    word-spacing: 0.8em;
 }
 .personaje1{
-    position: static;
-    background-color: rgba(0, 255, 255, 0.339);
+    position: absolute;
     top: 0px;
+    left: -80px;
 }
 .datos_de_sub_zero{
-    position: static;
-    top: 5000px;
-    left: 700px;
+    position: absolute;
+    top: 800px;
+    left: 720px;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 255, 255, 0.339);
-    width: 800px;
+    width: 650px;
 }
 .personaje2{
-    position: static;
-    background-color: rgba(0, 255, 255, 0.339);
-    top: 0px;
+    position: absolute;
+    top: 800px;
+    left: -80px;
 }
 .datos_de_kenshi{
-    position: static;
-    top: 5000px;
-    left: 700px;
+    position: absolute;
+    top: 1600px;
+    left: 720px;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 255, 255, 0.339);
-    width: 800px;
+    width: 650px;
 }
 .personaje3{
-    position: static;
-    background-color: rgba(0, 255, 255, 0.339);
-    top: 0px;
+    position: absolute;
+    top: 1600px;
+    left: -80px;
+}
+.datos_de_kitana{
+    position: absolute;
+    top: 2400px;
+    left: 720px;
+    color: rgb(255, 255, 255);
+    width: 650px;
 }
 .personaje4{
+    position: absolute;
+    top: 2400px;
+    left: -80px;
+}
+.movimientos_liu_kang{
     position: static;
-    background-color: rgba(0, 255, 255, 0.339);
-    top: 0px;
+    color: rgb(255, 255, 255)
+}
+.movimientos_sub_zero{
+    position: static;
+    color: rgb(255, 255, 255)
+}
+.movimientos_kenshi{
+    position: static;
+    color: rgb(255, 255, 255)
+}
+.movimientos_kitana{
+    position: static;
+    color: rgb(255, 255, 255)
+}
+.info_h{
+    position: absolute;
+    text-shadow: red10px,10px,10px;
+    left: 400px;
+    width: 650px;
 }
