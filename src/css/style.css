@@ -6,12 +6,25 @@ body, html {
     font-family: 'Cinzel', serif;
 }
 .fondo__pp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+.fondo__pph{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1; 
+}
+.fondo__pph img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
 }
 .fondo__pp img {
     width: 100%;
@@ -24,7 +37,7 @@ body, html {
     left: 50px;
 }
 .fondo__pps{
-    position: fixed;
+    position: absolute;
     top: 0px;
     width: 100%;
     height: 20%;
@@ -38,24 +51,24 @@ body, html {
     background: linear-gradient(90deg,rgb(20, 120, 210),rgba(0, 0, 255, 0));
 }
 .button_R{
-    position: fixed;
+    position: absolute;
     top:20px;
     left:70%;
 }
 .button_I{
-    position: fixed;
+    position: absolute;
     top:20px;
     left:80%;
 }
 .opciones__superior__pp {
-    position: fixed;
-    top: 70px;
-    left: 140px;
+    position: absolute;
+    top: 7%;
+    left: 10%;
     display: flex;
     list-style: none;
 }
 .opciones__superior__pp a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .opciones__superior__pp li {
@@ -78,16 +91,16 @@ body, html {
 .gif{
     width:350px;
     height: auto;
-    position: fixed;
-    top:575px;
-    left:770px;
+    position: absolute;
+    top:74%;
+    left:55%;
 }
 .gif2{
     width: 350px;
     height: auto;
-    position: fixed;
-    top:575px;
-    left:310px;
+    position: absolute;
+    top:74%;
+    left:21%;
 }
 .datos_de_liu_kang{
     position: absolute;
@@ -158,12 +171,74 @@ body, html {
 }
 .info_h{
     position: absolute;
-    text-shadow: red10px,10px,10px;
+    color: aliceblue;
     left: 400px;
     width: 650px;
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
 }
+.titulo_de_cameos{
+    position: absolute;
+    left: 30%;
+    top: 2%;
+    color: aliceblue;
+} 
 .cameo1{
     position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 40%;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .fondo__pp{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400%;
+        height: 200%;
+        z-index: -1; 
+    }
+    .gif{
+        width:800px;
+        height: auto;
+        position: absolute;
+        top:300%;
+        left:80%;
+    }
+    .gif2{
+        width: 800px;
+        height: auto;
+        position: absolute;
+        top:200%;
+        left:80%;
+    }
+    .fondo__pps{
+    position: absolute;
     top: 0px;
-    left: -80px;
+    width: 400%;
+    height: 20%;
+    background: linear-gradient(to bottom,rgb(20, 120, 210),rgba(0, 0, 255, 0));
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
 }
