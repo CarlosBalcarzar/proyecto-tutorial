@@ -5,190 +5,6 @@ body, html {
     overflow-y: fixed;
     font-family: 'Cinzel', serif;
 }
-.fondo__pp{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; 
-}
-.fondo__pph{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; 
-}
-.fondo__pph img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill; 
-}
-.fondo__pp img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill; 
-}
-.opciones__verticales__pp{
-    position: fixed;
-    top: 100px;
-    left: 50px;
-}
-.fondo__pps{
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 20%;
-    background: linear-gradient(to bottom,rgb(20, 120, 210),rgba(0, 0, 255, 0));
-}
-.fondo__ppi{
-    position: fixed;
-    top:0px;
-    width: 20%;
-    height: 100%;
-    background: linear-gradient(90deg,rgb(20, 120, 210),rgba(0, 0, 255, 0));
-}
-.button_R{
-    position: absolute;
-    top:20px;
-    left:70%;
-}
-.button_I{
-    position: absolute;
-    top:20px;
-    left:80%;
-}
-.opciones__superior__pp {
-    position: absolute;
-    top: 7%;
-    left: 10%;
-    display: flex;
-    list-style: none;
-}
-.opciones__superior__pp a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-.opciones__superior__pp li {
-    margin-right: 240px;
-    white-space: nowrap; 
-}
-.opciones__verticales__pp{
-    position: fixed;
-    top: 100px;
-    left: -15px;
-}
-.opciones__verticales__pp a{
-    color: black;
-    text-decoration: none;
-}
-.opciones__verticales__pp li{
-    display: block;
-    margin-bottom: 60px;
-}
-.gif{
-    width:350px;
-    height: auto;
-    position: absolute;
-    top:74%;
-    left:55%;
-}
-.gif2{
-    width: 350px;
-    height: auto;
-    position: absolute;
-    top:74%;
-    left:21%;
-}
-.datos_de_liu_kang{
-    position: absolute;
-    top: 0px;
-    left: 720px;
-    color: rgb(255, 255, 255);
-    width: 650px;
-}
-.personaje1{
-    position: absolute;
-    top: 0px;
-    left: -80px;
-}
-.datos_de_sub_zero{
-    position: absolute;
-    top: 800px;
-    left: 720px;
-    color: rgb(255, 255, 255);
-    width: 650px;
-}
-.personaje2{
-    position: absolute;
-    top: 800px;
-    left: -80px;
-}
-.datos_de_kenshi{
-    position: absolute;
-    top: 1600px;
-    left: 720px;
-    color: rgb(255, 255, 255);
-    width: 650px;
-}
-.personaje3{
-    position: absolute;
-    top: 1600px;
-    left: -80px;
-}
-.datos_de_kitana{
-    position: absolute;
-    top: 2400px;
-    left: 720px;
-    color: rgb(255, 255, 255);
-    width: 650px;
-}
-.personaje4{
-    position: absolute;
-    top: 2400px;
-    left: -80px;
-}
-.info_p h3{
-    word-spacing: 0.8em;
-}
-.movimientos_liu_kang{
-    position: static;
-    color: rgb(255, 255, 255)
-}
-.movimientos_sub_zero{
-    position: static;
-    color: rgb(255, 255, 255)
-}
-.movimientos_kenshi{
-    position: static;
-    color: rgb(255, 255, 255)
-}
-.movimientos_kitana{
-    position: static;
-    color: rgb(255, 255, 255)
-}
-.info_h{
-    position: absolute;
-    color: aliceblue;
-    left: 400px;
-    width: 650px;
-    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
-}
-.titulo_de_cameos{
-    position: absolute;
-    left: 30%;
-    top: 2%;
-    color: aliceblue;
-} 
-.cameo1{
-    position: absolute;
-    top: 100px;
-    left: 0px;
-    width: 40%;
-    height: auto;
-}
 @media (max-width: 767px) {
     .desktop {
         display: none;
@@ -240,5 +56,281 @@ body, html {
     }
     .movil {
         display: none;
+    }
+    .fondo__pp{
+        position: absolute;
+        top: 5%;
+        left: 0;
+        width: 100%;
+        height: 75%;
+        z-index: -1; 
+    }
+    .fondo_vacio{
+        position: absolute;
+        top: 70%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .fondo{
+        position: absolute;
+        top: 170%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .fondo_superior{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        background-color: rgb(19, 40, 68);
+    }
+    .fondo__pph{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+    }
+    .fondo__pph img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill; 
+    }
+    .button_R{
+        position: absolute;
+        top:5px;
+        left:75%;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 5px;
+    }
+    .button_R a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .button_I{
+        position: absolute;
+        top:5px;
+        left:85%;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 5px;
+    }
+    .button_I a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .instagram{
+        
+        position: absolute;
+        top: 10px;
+        left: 72%;
+        width: 30px;
+        height: 30px;
+    }
+    .facebook{
+        position: absolute;
+        top: 10px;
+        left: 69%;
+        width: 30px;
+        height: 30px;
+    }
+    .twitter{
+        position: absolute;
+        top: 10px;
+        left: 66%;
+        width: 30px;
+        height: 30px;
+    }
+    .whatsapp{
+        position: absolute;
+        top: 10px;
+        left: 63%;
+        width: 30px;
+        height: 30px;
+    }
+    .tiktok{
+        position: absolute;
+        top: 10px;
+        left: 60%;
+        width: 30px;
+        height: 30px;
+    }
+    .youtube{
+        position: absolute;
+        top: 10px;
+        left: 57%;
+        width: 30px;
+        height: 30px;
+    }
+    .discord{
+        position: absolute;
+        top: 10px;
+        left: 54%;
+        width: 30px;
+        height: 30px;
+    }
+    .opciones__superior__pp {
+        position: absolute;
+        top: 7%;
+        left: 10%;
+        display: flex;
+        list-style: none;
+    }
+    .opciones__superior__pp a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .opciones__superior__pp li {
+        margin-right: 240px;
+        white-space: nowrap; 
+        background-color: rgba(52, 96, 219, 0.3);
+        transform: skew(-30deg);
+        padding: 5px;
+        border: 2px solid rgb(255, 255, 255, 0.3);
+    }
+    .opciones__verticales__pp{
+        position: absolute;
+        top: 650px;
+        left: -15px;
+    }
+    .opciones__verticales__pp a{
+        color: rgb(34, 62, 107);
+        text-decoration: none;
+    }
+    .opciones__verticales__pp li{
+        display: block;
+        margin-bottom: 120%;
+    }
+    .gif{
+        width:350px;
+        height: auto;
+        position: absolute;
+        top:78%;
+        left:55%;
+    }
+    .gif2{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        top:78%;
+        left:21%;
+    }
+    .texto_de_info_trailerygameplay{
+        position: absolute;
+        top: 78%;
+        left: 30px;
+        width: 200px;
+        color: rgb(34, 62, 107);
+    }
+    .mk1-titulo{
+        position: absolute;
+        top: 117%;
+        left: 450px;
+        width: 500px;
+    }
+    .FECHA_de_lanzamiento{
+        position: absolute;
+        top: 130%;
+        left: 300px;
+        color: white;
+        text-shadow: -3px -3px 3px rgb(74, 125, 164), 3px -3px 3px rgb(74, 125, 164), -3px 3px 3px rgb(74, 125, 164), 3px 3px 3px rgb(74, 125, 164);
+    }
+    .DLC{
+        position: absolute;
+        top: 165%;
+        left: 200px;
+        width: 500px;
+        color: white;
+        text-shadow: -3px -3px 3px rgb(74, 125, 164), 3px -3px 3px rgb(74, 125, 164), -3px 3px 3px rgb(74, 125, 164), 3px 3px 3px rgb(74, 125, 164);
+    }
+    .datos_de_liu_kang{
+        position: absolute;
+        top: 0px;
+        left: 720px;
+        color: rgb(255, 255, 255);
+        width: 650px;
+    }
+    .personaje1{
+        position: absolute;
+        top: 0px;
+        left: -80px;
+    }
+    .datos_de_sub_zero{
+        position: absolute;
+        top: 800px;
+        left: 720px;
+        color: rgb(255, 255, 255);
+        width: 650px;
+    }
+    .personaje2{
+        position: absolute;
+        top: 800px;
+        left: -80px;
+    }
+    .datos_de_kenshi{
+        position: absolute;
+        top: 1600px;
+        left: 720px;
+        color: rgb(255, 255, 255);
+        width: 650px;
+    }
+    .personaje3{
+        position: absolute;
+        top: 1600px;
+        left: -80px;
+    }
+    .datos_de_kitana{
+        position: absolute;
+        top: 2400px;
+        left: 720px;
+        color: rgb(255, 255, 255);
+        width: 650px;
+    }
+    .personaje4{
+        position: absolute;
+        top: 2400px;
+        left: -80px;
+    }
+    .info_p h3{
+        word-spacing: 0.8em;
+    }
+    .movimientos_liu_kang{
+        position: static;
+        color: rgb(255, 255, 255)
+    }
+    .movimientos_sub_zero{
+        position: static;
+        color: rgb(255, 255, 255)
+    }
+    .movimientos_kenshi{
+        position: static;
+        color: rgb(255, 255, 255)
+    }
+    .movimientos_kitana{
+        position: static;
+        color: rgb(255, 255, 255)
+    }
+    .info_h{
+        position: absolute;
+        color: aliceblue;
+        left: 400px;
+        width: 650px;
+        text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+    }
+    .titulo_de_cameos{
+        position: absolute;
+        left: 30%;
+        top: 2%;
+        color: aliceblue;
+    } 
+    .cameo1{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 40%;
+        height: auto;
     }
 }
